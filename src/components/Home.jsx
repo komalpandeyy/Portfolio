@@ -36,7 +36,7 @@ const Home = () => {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="w-60 h-100 md:w-100 md:h-80 rounded-full overflow-hidden shadow-lg">
+        <div className="w-60 h-110 md:w-100 md:h-80 rounded-full overflow-hidden shadow-lg">
           <img
             src={Image}
             alt="Profile"

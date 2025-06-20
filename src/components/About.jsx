@@ -6,26 +6,35 @@ const About = () => {
       name="about"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-1" >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Hi, I’m Komal Pandey — a passionate developer with a strong foundation in computer science. I’m currently pursuing my MCA (2023–2025), after completing my B.Sc (Hons) in Computer Science from the University of Delhi.I specialize in building full-stack web applications using the MERN stack and have developed multiple projects that reflect my skills in real-world problem-solving. Alongside web development, I’m expanding my knowledge in machine learning and deep learning because I love exploring how technology can solve meaningful problems.
-
-I’m someone who genuinely enjoys learning — whether it’s improving my DSA skills, experimenting with new frameworks, or understanding system design concepts. I’ve built projects ranging from full-stack web apps to AI-based tools, and I’m always curious to build more.
-
-Apart from coding, I enjoy watching tech podcasts, exploring creative ideas, and challenging myself with new learning goals. Right now, I’m actively preparing for technical interviews and building projects that not only solve problems but also teach me something new every time.
-
-Let’s build something impactful together.
+        <p className="text-lg leading-relaxed text-gray-300">
+          Hi, I’m <span className="text-blue-400 font-semibold">Komal Pandey</span>, a full-stack web developer with a strong foundation in computer science.
+          <br />
+          <br />
+          I’m currently pursuing my MCA (2023–2025) at IGDTUW, after completing my B.Sc (Hons) Computer Science from the University of Delhi.
+          <br />
+          <br />
+          I specialize in building scalable web applications using the <span className="text-blue-400">MERN stack</span>, with projects like{" "}
+          <span className="text-pink-400 font-medium">Memories</span> (a journaling app),{" "}
+          <span className="text-pink-400 font-medium">MuKo ID Generator</span>, and{" "}
+          <span className="text-pink-400 font-medium">Enchanted Home</span> (a real-time chat app).
+          <br />
+          <br />
+          I’m also passionate about AI and Machine Learning, showcased through my project{" "}
+          <span className="text-pink-400 font-medium">FireYOLO</span> — a comparative analysis of YOLO variants for real-time fire detection.
+          <br />
+          <br />
+          When I’m not coding, I love exploring new technologies, sharpening my DSA skills, and preparing for technical interviews.
+          <br />
+          <br />
+          <span className="text-blue-400 font-semibold">Let’s connect and build something meaningful together.</span>
         </p>
-
-        <br />
-
-        
       </div>
     </div>
   );

@@ -12,16 +12,16 @@ const Portfolio = () => {
     {
       id: 1,
       src: p1,
-      title: "Memories - A journalling app",
-      desc: "Full-stack MERN app for adding and saving memories securely.",
+      title: "Memories - A Journaling App",
+      desc: "A full-stack MERN application that allows users to create, update, delete, and search journal entries with images and secure JWT-based authentication.",
       demo: "https://github.com/komalpandeyy/Memories_MERN",
       code: "https://github.com/komalpandeyy/Memories_MERN",
     },
     {
       id: 2,
       src: p2,
-      title: "Comparative study of yolo variants using fire detection",
-      desc: "Real-time fire and smoke detection using YOLO models.",
+      title: "Fire Detection using YOLO Variants",
+      desc: "Conducted a comparative analysis of YOLOv5, YOLOv8, and YOLOv11 for real-time fire and smoke detection. Achieved a mAP@0.5 of 0.979 on benchmark datasets.",
       demo: "https://github.com/komalpandeyy/FireSmokeDetectionYOLO",
       code: "https://colab.research.google.com/drive/1VCRa__kG4RYLlHrJl3gW19eRrR8BelTk?usp=sharing",
     },
@@ -29,7 +29,7 @@ const Portfolio = () => {
       id: 3,
       src: p3,
       title: "MuKo ID Card Generator",
-      desc: "Automates ID card creation with React, Node, MongoDB.",
+      desc: "A full-stack React and Node.js-based web app to generate and download professional ID cards, designed to streamline identity card creation.",
       demo: "https://komalpandeyy.github.io/ID_GENERATOR/",
       code: "https://github.com/komalpandeyy/ID_GENERATOR",
     },
@@ -37,15 +37,15 @@ const Portfolio = () => {
       id: 4,
       src: p4,
       title: "Enchanted Home",
-      desc: "Short description about this project here.",
+      desc: "A real-time chat application using WebSockets allowing users to join chat rooms, send and receive instant messages with others in the same room.",
       demo: "https://enchantedhome-frontend.onrender.com/",
       code: "https://github.com/komalpandeyy/EnchantedHome",
     },
     {
       id: 5,
       src: p5,
-      title: "Gourmet Galore",
-      desc: "Short description about this project here.",
+      title: "Gourmet Galore - Recipe App",
+      desc: "Recipe search web app built with React that fetches recipes using external APIs. Created to explore API handling, state management, and component structure in React.",
       demo: "https://gourmetgalore-frontend.onrender.com/",
       code: "https://github.com/komalpandeyy/GourmetGalore",
     },
@@ -53,7 +53,7 @@ const Portfolio = () => {
       id: 6,
       src: p6,
       title: "Quiz Point",
-      desc: "Short description about this project here.",
+      desc: "A simple web-based quiz game built with HTML, CSS, and vanilla JavaScript, featuring a timer and interactive question flow.",
       demo: "https://komalpandeyy.github.io/Quiz-website/",
       code: "https://github.com/komalpandeyy/Quiz-website",
     },
@@ -61,7 +61,7 @@ const Portfolio = () => {
       id: 7,
       src: p7,
       title: "Olympics Analysis",
-      desc: "Short description about this project here.",
+      desc: "Data analysis project showcasing trends and insights from Olympic datasets. Features bar charts, heatmaps, and statistical insights using data visualization libraries.",
       demo: "https://github.com/komalpandeyy/Olympics_analysis",
       code: "https://github.com/komalpandeyy/Olympics_analysis",
     },
@@ -82,7 +82,10 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-4 sm:px-0">
           {portfolios.map(({ id, src, title, desc, demo, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+            >
               <img
                 src={src}
                 alt={title}

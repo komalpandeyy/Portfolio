@@ -41,50 +41,32 @@ const SocialLinks = () => {
     </>
   ),
   href: "https://drive.google.com/file/d/1VfUuxT6qJNAQaqKEWKUtj-gJokqqI9VS/view?usp=drive_link", // your Drive link here
-  style: "rounded-br-md",
+  
   
   
 },
-{
-      id: 5,
-      child: (
-        <>
-          Instagram <FaInstagram size={30} />
-        </>
-      ),
-      href: "https://www.instagram.com/komal_pandeyy/",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 6,
-      child: (
-        <>
-          X <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/komal_pandeyyy",
-      style: "rounded-tr-md",
-    },
+
+    
      {
-      id: 7,
+      id: 5,
       child: (
         <>
           Leetcode <FaCode size={30} />
         </>
       ),
       href: "https://leetcode.com/komal13/",
-      style: "rounded-tr-md",
+      
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[20%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[30%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-5 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
               " " +
               style
             }
